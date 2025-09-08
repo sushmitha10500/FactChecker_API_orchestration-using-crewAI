@@ -517,3 +517,8 @@ Verifact represents a significant advancement in automated fact-checking technol
 The project demonstrates the practical application of modern AI frameworks like CrewAI for complex, multi-step workflows, and showcases how different technologies can be integrated to solve real-world problems in information verification and misinformation detection.
 
 With its robust architecture and comprehensive feature set, Verifact is positioned to make a meaningful impact in the fight against misinformation while providing valuable tools for researchers, journalists, and the general public.
+
+<img width="1920" height="1080" alt="frnt_nd_youtube_claim" src="https://github.com/user-attachments/assets/fa4d774c-20cd-4de9-a2c5-9676556a8a18" />
+<img width="1920" height="1080" alt="youtube_verdict" src="https://github.com/user-attachments/assets/e08c094f-7d2e-48b7-be8a-3bd27918f742" />
+
+
