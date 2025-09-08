@@ -16,7 +16,8 @@
 10. [Implementation Details](#implementation-details)
 11. [Use Cases & Applications](#use-cases--applications)
 12. [Future Enhancements](#future-enhancements)
-
+<img width="1920" height="1080" alt="frnt_nd_youtube_claim" src="https://github.com/user-attachments/assets/fa4d774c-20cd-4de9-a2c5-9676556a8a18" />
+<img width="1920" height="1080" alt="youtube_verdict" src="https://github.com/user-attachments/assets/e08c094f-7d2e-48b7-be8a-3bd27918f742" />
 ---
 
 ## Project Overview
