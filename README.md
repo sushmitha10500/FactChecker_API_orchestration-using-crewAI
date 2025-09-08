@@ -431,31 +431,10 @@ verifact/
 │   │   ├── youtube_tool.py       # YouTube transcript tool
 │   │   └── serper_tool.py        # Search enhancement tool
 │   │
-│   ├── utils/
-│   │   ├── __init__.py
-│   │   ├── file_handlers.py      # File processing utilities
-│   │   ├── content_processor.py  # Content cleaning and formatting
-│   │   └── validators.py         # Input validation functions
-│   │
-│   └── config/
-│       ├── __init__.py
-│       ├── settings.py           # Application settings
-│       └── prompts.py           # Agent prompts and templates
+│ 
 │
-├── data/
-│   ├── temp/                    # Temporary file storage
-│   └── outputs/                 # Verification results
-│
-├── tests/
-│   ├── __init__.py
-│   ├── test_agents.py          # Agent testing
-│   ├── test_tools.py           # Tool testing
-│   └── test_integration.py     # End-to-end testing
-│
-└── docs/
-    ├── user_guide.md           # User documentation
-    ├── api_reference.md        # API documentation
-    └── deployment_guide.md     # Deployment instructions
+└───── app.py
+
 ```
 
 ---
