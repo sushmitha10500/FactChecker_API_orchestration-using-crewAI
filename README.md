@@ -47,22 +47,7 @@ Verifact addresses the critical challenge of information verification in the dig
 ## System Architecture
 
 ### High-Level Architecture
-```
-┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│   Streamlit     │    │    CrewAI        │    │   External      │
-│   Frontend      │◄──►│   Multi-Agent    │◄──►│   APIs/Tools    │
-│                 │    │   System         │    │                 │
-└─────────────────┘    └──────────────────┘    └─────────────────┘
-        │                        │                        │
-        ▼                        ▼                        ▼
-┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│ Input Handler   │    │ Agent Pipeline   │    │ Web Scraping    │
-│ - Text Claims   │    │ - Fact Researcher│    │ - YouTube API   │
-│ - URLs          │    │ - Content Analyzer│   │ - Serper Search │
-│ - YouTube Links │    │ - Fact Verifier  │    │ - BeautifulSoup │
-│ - File Uploads  │    │                  │    │                 │
-└─────────────────┘    └──────────────────┘    └─────────────────┘
-```
+
 
 ### Design Principles
 1. **Modular Architecture**: Separation of concerns with distinct agents and tools
@@ -409,34 +394,7 @@ User Input → Input Validation → Content Type Detection → Route to Appropri
 
 ## File Structure
 
-```
-verifact/
-├── agents.yaml              # Agent configurations
-├── tasks.yaml               # Task definitions
-├── main.py                  # Streamlit application entry point
-├── requirements.txt         # Python dependencies
-├── .env                     # Environment variables
-├── README.md               # Project documentation
-│
-├── src/
-│   ├── __init__.py
-│   ├── agents/
-│   │   ├── __init__.py
-│   │   ├── fact_researcher.py    # Data gathering agent
-│   │   ├── content_analyzer.py   # Claim extraction agent
-│   │   └── fact_verifier.py      # Verification agent
-│   │
-│   ├── tools/
-│   │   ├── __init__.py
-│   │   ├── web_scraping_tool.py  # Web content extraction
-│   │   ├── youtube_tool.py       # YouTube transcript tool
-│   │   └── serper_tool.py        # Search enhancement tool
-│   │
-│ 
-│
-└───── app.py
 
-```
 
 ---
 
