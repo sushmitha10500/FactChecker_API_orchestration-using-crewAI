@@ -3,7 +3,7 @@
 
 ---
 
-## Key Highlights of Your Project
+## Key Highlights of the Project
 
 ### 1. **Core Functionality**
 
