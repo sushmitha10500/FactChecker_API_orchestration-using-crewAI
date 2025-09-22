@@ -73,11 +73,9 @@ User Input → Input Validation → Fact Researcher → Content Analyzer → Fac
 
 ---
 
-💡 Verifact is a **fact-checking API orchestration platform** that leverages multi-agent AI to process, analyze, and verify claims from various content types, providing trustworthy evidence-backed results.
-
----
-
 ## Conclusion
+
+💡 Verifact is a **fact-checking API orchestration platform** that leverages multi-agent AI to process, analyze, and verify claims from various content types, providing trustworthy evidence-backed results.
 
 Verifact represents a significant advancement in automated fact-checking technology, combining the power of multi-agent AI systems with comprehensive content processing capabilities. The system's modular architecture ensures scalability and maintainability while providing accurate, evidence-based verification across multiple content formats.
 
